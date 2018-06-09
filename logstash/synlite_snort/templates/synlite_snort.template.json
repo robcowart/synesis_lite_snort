@@ -1,0 +1,226 @@
+{
+  "order": 0,
+  "version": 10000,
+  "index_patterns": "snort-1.0.0-*",
+  "settings": {
+    "index": {
+      "number_of_shards": 3,
+      "number_of_replicas": 1,
+      "refresh_interval": "10s",
+      "codec": "best_compression"
+    }
+  },
+  "mappings": {
+    "_default_": {
+      "numeric_detection": true,
+      "dynamic_templates": [
+        {
+          "string_fields": {
+            "match_mapping_type": "string",
+            "match": "*",
+            "mapping": {
+              "type": "keyword"
+            }
+          }
+        }
+      ],
+      "properties": {
+        "@timestamp": {
+          "type": "date"
+        },
+        "@version": {
+          "type": "keyword"
+        },
+        "app_proto": {
+          "type": "keyword"
+        },
+        "autonomous_system": {
+          "type": "keyword"
+        },
+        "city": {
+          "type": "keyword"
+        },
+        "client_asn": {
+          "type": "long"
+        },
+        "client_autonomous_system": {
+          "type": "keyword"
+        },
+        "client_city": {
+          "type": "keyword"
+        },
+        "client_country": {
+          "type": "keyword"
+        },
+        "client_geo_location": {
+          "type": "geo_point"
+        },
+        "client_hostname": {
+          "type": "keyword"
+        },
+        "client_ip": {
+          "type": "ip"
+        },
+        "country": {
+          "type": "keyword"
+        },
+        "dest_asn": {
+          "type": "long"
+        },
+        "dest_autonomous_system": {
+          "type": "keyword"
+        },
+        "dest_city": {
+          "type": "keyword"
+        },
+        "dest_country": {
+          "type": "keyword"
+        },
+        "dest_geo_location": {
+          "type": "geo_point"
+        },
+        "dest_hostname": {
+          "type": "keyword"
+        },
+        "dest_ip": {
+          "type": "ip"
+        },
+        "dest_port": {
+          "type": "long"
+        },
+        "dest_port_name": {
+          "type": "keyword"
+        },
+        "dest_rep_tags": {
+          "type": "keyword"
+        },
+        "event": {
+          "dynamic": true,
+          "type": "object",
+          "properties": {
+            "host": {
+              "type": "keyword"
+            },
+            "subtype": {
+              "type": "keyword"
+            },
+            "type": {
+              "type": "keyword"
+            }
+          }
+        },
+        "icmp_code": {
+          "type": "long"
+        },
+        "icmp_type": {
+          "type": "long"
+        },
+        "in_iface": {
+          "type": "keyword"
+        },
+        "ip_version": {
+          "type": "keyword"
+        },
+        "log": {
+          "dynamic": true,
+          "type": "object",
+          "properties": {
+            "message": {
+              "type": "keyword"
+            },
+            "severity": {
+              "type": "keyword"
+            },
+            "tags": {
+              "type": "keyword"
+            }
+          }
+        },
+        "node": {
+          "dynamic": true,
+          "type": "object",
+          "properties": {
+            "ipaddr": {
+              "type": "ip"
+            },
+            "hostname": {
+              "type": "keyword"
+            }
+          }
+        },
+        "proto": {
+          "type": "keyword"
+        },
+        "rep_tags": {
+          "type": "keyword"
+        },
+        "server_asn": {
+          "type": "long"
+        },
+        "server_autonomous_system": {
+          "type": "keyword"
+        },
+        "server_city": {
+          "type": "keyword"
+        },
+        "server_country": {
+          "type": "keyword"
+        },
+        "server_geo_location": {
+          "type": "geo_point"
+        },
+        "server_hostname": {
+          "type": "keyword"
+        },
+        "server_ip": {
+          "type": "ip"
+        },
+        "service_name": {
+          "type": "keyword"
+        },
+        "service_port": {
+          "type": "long"
+        },
+        "src_asn": {
+          "type": "long"
+        },
+        "src_autonomous_system": {
+          "type": "keyword"
+        },
+        "src_city": {
+          "type": "keyword"
+        },
+        "src_country": {
+          "type": "keyword"
+        },
+        "src_geo_location": {
+          "type": "geo_point"
+        },
+        "src_hostname": {
+          "type": "keyword"
+        },
+        "src_ip": {
+          "type": "ip"
+        },
+        "src_port": {
+          "type": "long"
+        },
+        "src_port_name": {
+          "type": "keyword"
+        },
+        "src_rep_tags": {
+          "type": "keyword"
+        },
+        "vlan": {
+          "type": "long"
+        },
+        "tags": {
+          "type": "keyword"
+        },
+        "traffic_locality": {
+          "type": "keyword"
+        }
+      }
+    }
+  }
+}
