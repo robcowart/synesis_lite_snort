@@ -31,13 +31,13 @@
         "@version": {
           "type": "keyword"
         },
-        "app_proto": {
-          "type": "keyword"
-        },
         "autonomous_system": {
           "type": "keyword"
         },
         "city": {
+          "type": "keyword"
+        },
+        "class": {
           "type": "keyword"
         },
         "client_asn": {
@@ -101,6 +101,9 @@
             "host": {
               "type": "keyword"
             },
+            "message": {
+              "type": "text"
+            },
             "subtype": {
               "type": "keyword"
             },
@@ -108,15 +111,6 @@
               "type": "keyword"
             }
           }
-        },
-        "icmp_code": {
-          "type": "long"
-        },
-        "icmp_type": {
-          "type": "long"
-        },
-        "in_iface": {
-          "type": "keyword"
         },
         "ip_version": {
           "type": "keyword"
@@ -210,9 +204,6 @@
         },
         "src_rep_tags": {
           "type": "keyword"
-        },
-        "vlan": {
-          "type": "long"
         },
         "tags": {
           "type": "keyword"

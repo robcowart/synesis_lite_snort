@@ -16,13 +16,14 @@
 #------------------------------------------------------------------------------
 
 # Synesis Lite for Snort global configuration
+export SYNLITE_SNORT_GROK_PATTERNS_DIR=/etc/logstash/synlite_snort/patterns
 export SYNLITE_SNORT_DICT_PATH=/etc/logstash/synlite_snort/dictionaries
 export SYNLITE_SNORT_TEMPLATE_PATH=/etc/logstash/synlite_snort/templates
 export SYNLITE_SNORT_GEOIP_DB_PATH=/etc/logstash/synlite_snort/geoipdbs
 export SYNLITE_SNORT_GEOIP_CACHE_SIZE=8192
 export SYNLITE_SNORT_GEOIP_LOOKUP=true
 export SYNLITE_SNORT_ASN_LOOKUP=true
-export SYNLITE_SNORT_CLEANUP_SIGS=false
+export SYNLITE_SNORT_CLEANUP_SIGS=true
 
 # Name resolution option
 export SYNLITE_SNORT_RESOLVE_IP2HOST=false
