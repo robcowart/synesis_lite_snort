@@ -1,8 +1,6 @@
 # sýnesis&trade; Lite for Snort
 sýnesis&trade; Lite for Snort provides basic log analytics for Snort IDS/IPS using the Elastic Stack.
 
-# UNDER DEVELOPMENT - DO NOT USE!!!
-
 # Getting Started
 sýnesis&trade; Lite for Snort is built using the Elastic Stack, including Elasticsearch, Logstash and Kibana. To install and configure sýnesis&trade; Lite for Snort, you must first have a working Elastic Stack environment. The latest release requires Elastic Stack version 6.2 or later.
 
