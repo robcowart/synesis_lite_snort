@@ -1,5 +1,7 @@
 # sýnesis&trade; Lite for Snort
-sýnesis&trade; Lite for Snort provides basic log analytics for Snort IDS/IPS using the Elastic Stack.
+sýnesis&trade; Lite for Snort provides basic analytics for Snort IDS/IPS alert logs using the Elastic Stack.
+
+![synlite_snort](https://user-images.githubusercontent.com/10326954/41204040-c1188290-6cdf-11e8-9711-9c2f8ddba5f4.png)
 
 # Getting Started
 sýnesis&trade; Lite for Snort is built using the Elastic Stack, including Elasticsearch, Logstash and Kibana. To install and configure sýnesis&trade; Lite for Snort, you must first have a working Elastic Stack environment. The latest release requires Elastic Stack version 6.2 or later.
@@ -9,9 +11,6 @@ Refer to the following compatibility chart to choose a release of sýnesis&trade
 Elastic Stack |  v1.x
 :---:|:---:
 6.2 | &#10003;
-
-## Snort
-An example configuration for the Snort output is provided in `snort/snort.yml`.
 
 ## Setting up Elasticsearch
 Currently there is no specific configuration required for Elasticsearch. As long as Kibana and Logstash can talk to your Elasticsearch cluster you should be ready to go. The index template required by Elasticsearch will be uploaded by Logstash.
@@ -155,6 +154,30 @@ timepicker:quickRanges | [see below](#recommended-setting-for-timepicker:quickRa
 The following dashboards are provided.
 
 > NOTE: The dashboards are optimized for a monitor resolution of 1920x1080.
+
+### Alerts
+![snort_alerts](https://user-images.githubusercontent.com/10326954/41203870-8a88f6bc-6cdd-11e8-86df-2158172be3e3.png)
+
+### Threats - Public Attackers
+![snort_threats_public_attackers](https://user-images.githubusercontent.com/10326954/41203876-8b44ff4c-6cdd-11e8-99ef-4f303d56675c.png)
+
+### Threats - At-Risk Servers
+![snort_threats_risk_servers](https://user-images.githubusercontent.com/10326954/41203901-d341d1d0-6cdd-11e8-9dc4-8bef35760f8d.png)
+
+### Threats - At-Risk Services
+![snort_threats_risk_services](https://user-images.githubusercontent.com/10326954/41203878-8ba7bb1e-6cdd-11e8-92d5-bd310e0e9d99.png)
+
+### Threats - High-Risk Clients
+![snort_threats_risk_clients](https://user-images.githubusercontent.com/10326954/41203877-8b74899c-6cdd-11e8-90da-e7ca78917834.png)
+
+### Sankey
+![snort_sankey](https://user-images.githubusercontent.com/10326954/41203875-8b16ca8c-6cdd-11e8-9f3b-67ffdaef3809.png)
+
+### Geo IP
+![snort_geoip](https://user-images.githubusercontent.com/10326954/41203872-8ab6d0c8-6cdd-11e8-9ba2-f3c300771237.png)
+
+### Raw Logs
+![snort_raw_logs](https://user-images.githubusercontent.com/10326954/41203874-8ae4ead0-6cdd-11e8-8962-b5c6b92d3067.png)
 
 # Environment Variable Reference
 The supported environment variables are:
