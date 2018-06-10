@@ -1,0 +1,1135 @@
+[
+  {
+    "_id": "e3c64770-6cab-11e8-acab-b78fd1091474",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Snort: Alerts",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"panelIndex\":\"1\",\"gridData\":{\"x\":0,\"y\":0,\"w\":10,\"h\":1,\"i\":\"1\"},\"id\":\"0f385b50-6ca7-11e8-acab-b78fd1091474\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"2\",\"gridData\":{\"x\":10,\"y\":0,\"w\":2,\"h\":1,\"i\":\"2\"},\"id\":\"7e0c68b0-6cab-11e8-acab-b78fd1091474\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":0,\"y\":1,\"w\":2,\"h\":8,\"i\":\"3\"},\"id\":\"5472c280-6ca9-11e8-acab-b78fd1091474\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"4\",\"gridData\":{\"x\":2,\"y\":1,\"w\":2,\"h\":2,\"i\":\"4\"},\"id\":\"7e83b100-6caa-11e8-acab-b78fd1091474\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"5\",\"gridData\":{\"x\":4,\"y\":1,\"w\":2,\"h\":2,\"i\":\"5\"},\"id\":\"b45a5860-6caa-11e8-acab-b78fd1091474\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"6\",\"gridData\":{\"x\":6,\"y\":1,\"w\":2,\"h\":2,\"i\":\"6\"},\"id\":\"f4ed1b60-6caa-11e8-acab-b78fd1091474\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"7\",\"gridData\":{\"x\":8,\"y\":1,\"w\":2,\"h\":2,\"i\":\"7\"},\"id\":\"1d6f9720-6cab-11e8-acab-b78fd1091474\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"8\",\"gridData\":{\"x\":10,\"y\":1,\"w\":2,\"h\":2,\"i\":\"8\"},\"id\":\"57497740-6cab-11e8-acab-b78fd1091474\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"9\",\"gridData\":{\"x\":2,\"y\":3,\"w\":10,\"h\":2,\"i\":\"9\"},\"id\":\"40932540-6cac-11e8-acab-b78fd1091474\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"10\",\"gridData\":{\"x\":2,\"y\":5,\"w\":3,\"h\":2,\"i\":\"10\"},\"title\":\"Alert Classes\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"9cabb1c0-6cad-11e8-acab-b78fd1091474\"},{\"panelIndex\":\"11\",\"gridData\":{\"x\":5,\"y\":5,\"w\":3,\"h\":2,\"i\":\"11\"},\"title\":\"Alert Signatures\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"adae3f60-6cad-11e8-acab-b78fd1091474\"},{\"panelIndex\":\"12\",\"gridData\":{\"x\":8,\"y\":5,\"w\":3,\"h\":2,\"i\":\"12\"},\"title\":\"Vulnerabilities\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"2d3557a0-6cae-11e8-acab-b78fd1091474\"},{\"title\":\"Clients\",\"panelIndex\":\"13\",\"gridData\":{\"x\":2,\"y\":7,\"w\":3,\"h\":2,\"i\":\"13\"},\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"2831bb50-6cad-11e8-acab-b78fd1091474\"},{\"title\":\"Servers\",\"panelIndex\":\"14\",\"gridData\":{\"x\":5,\"y\":7,\"w\":3,\"h\":2,\"i\":\"14\"},\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"43310c30-6cad-11e8-acab-b78fd1091474\"},{\"panelIndex\":\"15\",\"gridData\":{\"x\":8,\"y\":7,\"w\":3,\"h\":2,\"i\":\"15\"},\"title\":\"Services\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"6709fd10-6cad-11e8-acab-b78fd1091474\"}]",
+      "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":false}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "b5057330-6caf-11e8-acab-b78fd1091474",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Snort: Raw Logs",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"panelIndex\":\"2\",\"gridData\":{\"x\":10,\"y\":0,\"w\":2,\"h\":1,\"i\":\"2\"},\"id\":\"7e0c68b0-6cab-11e8-acab-b78fd1091474\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"9\",\"gridData\":{\"x\":4,\"y\":1,\"w\":8,\"h\":2,\"i\":\"9\"},\"id\":\"40932540-6cac-11e8-acab-b78fd1091474\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"10\",\"gridData\":{\"x\":0,\"y\":1,\"w\":2,\"h\":8,\"i\":\"10\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"d52848a0-6ca9-11e8-acab-b78fd1091474\"},{\"panelIndex\":\"11\",\"gridData\":{\"x\":2,\"y\":3,\"w\":10,\"h\":6,\"i\":\"11\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"search\",\"id\":\"629e53a0-6caf-11e8-acab-b78fd1091474\"},{\"panelIndex\":\"12\",\"gridData\":{\"x\":2,\"y\":1,\"w\":2,\"h\":2,\"i\":\"12\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"2d2da490-6cb0-11e8-acab-b78fd1091474\"},{\"title\":\"\",\"panelIndex\":\"13\",\"gridData\":{\"x\":0,\"y\":0,\"w\":10,\"h\":1,\"i\":\"13\"},\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"ade13970-6cb1-11e8-acab-b78fd1091474\"}]",
+      "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":false}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "529eafb0-6cb2-11e8-acab-b78fd1091474",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Snort: Threats (At-Risk Services)",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"panelIndex\":\"2\",\"gridData\":{\"x\":10,\"y\":0,\"w\":2,\"h\":1,\"i\":\"2\"},\"id\":\"7e0c68b0-6cab-11e8-acab-b78fd1091474\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":0,\"y\":0,\"w\":5,\"h\":1,\"i\":\"3\"},\"id\":\"7d1fb000-6cb1-11e8-acab-b78fd1091474\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"4\",\"gridData\":{\"x\":5,\"y\":0,\"w\":5,\"h\":1,\"i\":\"4\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"b31eaa70-6cb2-11e8-acab-b78fd1091474\"},{\"panelIndex\":\"5\",\"gridData\":{\"x\":0,\"y\":1,\"w\":2,\"h\":8,\"i\":\"5\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"a0a79450-6ca9-11e8-acab-b78fd1091474\"},{\"panelIndex\":\"6\",\"gridData\":{\"x\":2,\"y\":3,\"w\":3,\"h\":6,\"i\":\"6\"},\"title\":\"At-Risk Services\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"42de88f0-6cb9-11e8-acab-b78fd1091474\"},{\"panelIndex\":\"7\",\"gridData\":{\"x\":2,\"y\":1,\"w\":2,\"h\":2,\"i\":\"7\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"3ca368f0-6cb6-11e8-acab-b78fd1091474\"},{\"panelIndex\":\"8\",\"gridData\":{\"x\":4,\"y\":1,\"w\":8,\"h\":2,\"i\":\"8\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"3080df80-6cb6-11e8-acab-b78fd1091474\"},{\"title\":\"IP Reputations\",\"panelIndex\":\"9\",\"gridData\":{\"x\":10,\"y\":3,\"w\":2,\"h\":6,\"i\":\"9\"},\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"b6ac0830-6cb8-11e8-acab-b78fd1091474\"},{\"panelIndex\":\"10\",\"gridData\":{\"x\":5,\"y\":3,\"w\":3,\"h\":6,\"i\":\"10\"},\"title\":\"Signatures\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"a982e430-6cb8-11e8-acab-b78fd1091474\"},{\"title\":\"Vulnerabilities\",\"panelIndex\":\"11\",\"gridData\":{\"x\":8,\"y\":3,\"w\":2,\"h\":6,\"i\":\"11\"},\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"b13ae790-6cb8-11e8-acab-b78fd1091474\"}]",
+      "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":false}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "72d8a7e0-6cb2-11e8-acab-b78fd1091474",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Snort: Threats (High-Risk Clients)",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"panelIndex\":\"2\",\"gridData\":{\"x\":10,\"y\":0,\"w\":2,\"h\":1,\"i\":\"2\"},\"id\":\"7e0c68b0-6cab-11e8-acab-b78fd1091474\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":0,\"y\":0,\"w\":5,\"h\":1,\"i\":\"3\"},\"id\":\"7d1fb000-6cb1-11e8-acab-b78fd1091474\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"4\",\"gridData\":{\"x\":0,\"y\":1,\"w\":2,\"h\":8,\"i\":\"4\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"a0a79450-6ca9-11e8-acab-b78fd1091474\"},{\"panelIndex\":\"5\",\"gridData\":{\"x\":5,\"y\":0,\"w\":5,\"h\":1,\"i\":\"5\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"c4b11c00-6cb2-11e8-acab-b78fd1091474\"},{\"panelIndex\":\"6\",\"gridData\":{\"x\":2,\"y\":1,\"w\":2,\"h\":2,\"i\":\"6\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"44b76f00-6cb6-11e8-acab-b78fd1091474\"},{\"panelIndex\":\"7\",\"gridData\":{\"x\":4,\"y\":1,\"w\":8,\"h\":2,\"i\":\"7\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"63333c70-6cb6-11e8-acab-b78fd1091474\"},{\"panelIndex\":\"8\",\"gridData\":{\"x\":2,\"y\":3,\"w\":3,\"h\":6,\"i\":\"8\"},\"title\":\"High-Risk Clients\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"1ce77d90-6cba-11e8-acab-b78fd1091474\"},{\"title\":\"IP Reputations\",\"panelIndex\":\"9\",\"gridData\":{\"x\":10,\"y\":3,\"w\":2,\"h\":6,\"i\":\"9\"},\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"51319180-6cba-11e8-acab-b78fd1091474\"},{\"panelIndex\":\"10\",\"gridData\":{\"x\":5,\"y\":3,\"w\":3,\"h\":6,\"i\":\"10\"},\"title\":\"Signatures\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"2de158a0-6cba-11e8-acab-b78fd1091474\"},{\"title\":\"Vulnerabilities\",\"panelIndex\":\"11\",\"gridData\":{\"x\":8,\"y\":3,\"w\":2,\"h\":6,\"i\":\"11\"},\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"421947b0-6cba-11e8-acab-b78fd1091474\"}]",
+      "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":false}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "3c4fa070-6cb2-11e8-acab-b78fd1091474",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Snort: Threats (At-Risk Servers)",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"panelIndex\":\"2\",\"gridData\":{\"x\":10,\"y\":0,\"w\":2,\"h\":1,\"i\":\"2\"},\"id\":\"7e0c68b0-6cab-11e8-acab-b78fd1091474\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":0,\"y\":0,\"w\":5,\"h\":1,\"i\":\"3\"},\"id\":\"7d1fb000-6cb1-11e8-acab-b78fd1091474\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"4\",\"gridData\":{\"x\":5,\"y\":0,\"w\":5,\"h\":1,\"i\":\"4\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"a264be90-6cb2-11e8-acab-b78fd1091474\"},{\"panelIndex\":\"5\",\"gridData\":{\"x\":0,\"y\":1,\"w\":2,\"h\":8,\"i\":\"5\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"a0a79450-6ca9-11e8-acab-b78fd1091474\"},{\"panelIndex\":\"6\",\"gridData\":{\"x\":2,\"y\":1,\"w\":2,\"h\":2,\"i\":\"6\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"3ca368f0-6cb6-11e8-acab-b78fd1091474\"},{\"panelIndex\":\"7\",\"gridData\":{\"x\":4,\"y\":1,\"w\":8,\"h\":2,\"i\":\"7\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"3080df80-6cb6-11e8-acab-b78fd1091474\"},{\"panelIndex\":\"8\",\"gridData\":{\"x\":2,\"y\":3,\"w\":3,\"h\":6,\"i\":\"8\"},\"title\":\"At-Risk Servers\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"a2bdf360-6cb8-11e8-acab-b78fd1091474\"},{\"panelIndex\":\"10\",\"gridData\":{\"x\":5,\"y\":3,\"w\":3,\"h\":6,\"i\":\"10\"},\"title\":\"Signatures\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"a982e430-6cb8-11e8-acab-b78fd1091474\"},{\"title\":\"IP Reputations\",\"panelIndex\":\"11\",\"gridData\":{\"x\":10,\"y\":3,\"w\":2,\"h\":6,\"i\":\"11\"},\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"b6ac0830-6cb8-11e8-acab-b78fd1091474\"},{\"panelIndex\":\"12\",\"gridData\":{\"x\":8,\"y\":3,\"w\":2,\"h\":6,\"i\":\"12\"},\"title\":\"Vulnerabilities\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"b13ae790-6cb8-11e8-acab-b78fd1091474\"}]",
+      "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":false}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "a22c8270-6cb0-11e8-acab-b78fd1091474",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Snort: Threats (Public Attackers)",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"panelIndex\":\"2\",\"gridData\":{\"x\":10,\"y\":0,\"w\":2,\"h\":1,\"i\":\"2\"},\"id\":\"7e0c68b0-6cab-11e8-acab-b78fd1091474\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":0,\"y\":0,\"w\":5,\"h\":1,\"i\":\"3\"},\"id\":\"7d1fb000-6cb1-11e8-acab-b78fd1091474\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"4\",\"gridData\":{\"x\":5,\"y\":0,\"w\":5,\"h\":1,\"i\":\"4\"},\"id\":\"0a068ca0-6cb2-11e8-acab-b78fd1091474\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"5\",\"gridData\":{\"x\":0,\"y\":1,\"w\":2,\"h\":8,\"i\":\"5\"},\"id\":\"a0a79450-6ca9-11e8-acab-b78fd1091474\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"6\",\"gridData\":{\"x\":2,\"y\":1,\"w\":2,\"h\":2,\"i\":\"6\"},\"id\":\"6889a920-6cb6-11e8-acab-b78fd1091474\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"7\",\"gridData\":{\"x\":4,\"y\":1,\"w\":8,\"h\":2,\"i\":\"7\"},\"id\":\"7237d730-6cb6-11e8-acab-b78fd1091474\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"title\":\"Public Attackers\",\"panelIndex\":\"8\",\"gridData\":{\"x\":2,\"y\":3,\"w\":3,\"h\":6,\"i\":\"8\"},\"id\":\"47de5c10-6cb7-11e8-acab-b78fd1091474\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"title\":\"Signatures\",\"panelIndex\":\"9\",\"gridData\":{\"x\":5,\"y\":3,\"w\":3,\"h\":6,\"i\":\"9\"},\"id\":\"01686040-6cb8-11e8-acab-b78fd1091474\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"title\":\"Vulnerabilities\",\"panelIndex\":\"10\",\"gridData\":{\"x\":8,\"y\":3,\"w\":2,\"h\":6,\"i\":\"10\"},\"id\":\"2d5b71b0-6cb8-11e8-acab-b78fd1091474\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"title\":\"IP Reputations\",\"panelIndex\":\"11\",\"gridData\":{\"x\":10,\"y\":3,\"w\":2,\"h\":6,\"i\":\"11\"},\"id\":\"4acea8c0-6cb8-11e8-acab-b78fd1091474\",\"type\":\"visualization\",\"version\":\"6.2.4\"}]",
+      "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":false}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "74b4a5c0-6cb0-11e8-acab-b78fd1091474",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Snort: Sankey",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"panelIndex\":\"2\",\"gridData\":{\"x\":10,\"y\":0,\"w\":2,\"h\":1,\"i\":\"2\"},\"id\":\"7e0c68b0-6cab-11e8-acab-b78fd1091474\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":0,\"y\":1,\"w\":2,\"h\":8,\"i\":\"3\"},\"id\":\"c9f883a0-6ca9-11e8-acab-b78fd1091474\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"4\",\"gridData\":{\"x\":0,\"y\":0,\"w\":10,\"h\":1,\"i\":\"4\"},\"id\":\"8a4b9320-6cb1-11e8-acab-b78fd1091474\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"5\",\"gridData\":{\"x\":2,\"y\":1,\"w\":3,\"h\":2,\"i\":\"5\"},\"id\":\"2831bb50-6cad-11e8-acab-b78fd1091474\",\"title\":\"Clients\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"6\",\"gridData\":{\"x\":2,\"y\":3,\"w\":3,\"h\":2,\"i\":\"6\"},\"id\":\"43310c30-6cad-11e8-acab-b78fd1091474\",\"title\":\"Servers\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"7\",\"gridData\":{\"x\":2,\"y\":5,\"w\":3,\"h\":2,\"i\":\"7\"},\"id\":\"6709fd10-6cad-11e8-acab-b78fd1091474\",\"title\":\"Services\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"8\",\"gridData\":{\"x\":2,\"y\":7,\"w\":3,\"h\":2,\"i\":\"8\"},\"id\":\"6144faa0-6cae-11e8-acab-b78fd1091474\",\"title\":\"IP Reputations\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"title\":\"\",\"panelIndex\":\"9\",\"gridData\":{\"x\":5,\"y\":1,\"w\":7,\"h\":8,\"i\":\"9\"},\"id\":\"88a92560-6cbf-11e8-acab-b78fd1091474\",\"type\":\"visualization\",\"version\":\"6.2.4\"}]",
+      "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":false}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "d7078bc0-6cb0-11e8-acab-b78fd1091474",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Snort: Geo IP",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"panelIndex\":\"2\",\"gridData\":{\"x\":10,\"y\":0,\"w\":2,\"h\":1,\"i\":\"2\"},\"id\":\"7e0c68b0-6cab-11e8-acab-b78fd1091474\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":0,\"y\":0,\"w\":10,\"h\":1,\"i\":\"3\"},\"id\":\"9fec8810-6cb1-11e8-acab-b78fd1091474\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"4\",\"gridData\":{\"x\":0,\"y\":1,\"w\":2,\"h\":8,\"i\":\"4\"},\"id\":\"9236d420-6cb4-11e8-acab-b78fd1091474\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"5\",\"gridData\":{\"x\":2,\"y\":1,\"w\":3,\"h\":2,\"i\":\"5\"},\"id\":\"0c98a600-6cae-11e8-acab-b78fd1091474\",\"title\":\"Countries\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"6\",\"gridData\":{\"x\":5,\"y\":1,\"w\":3,\"h\":2,\"i\":\"6\"},\"id\":\"ead06cb0-6cad-11e8-acab-b78fd1091474\",\"title\":\"Cities\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"7\",\"gridData\":{\"x\":8,\"y\":1,\"w\":3,\"h\":2,\"i\":\"7\"},\"id\":\"da0801e0-6cad-11e8-acab-b78fd1091474\",\"title\":\"Autonomous Systems\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"title\":\"Client Geo Locations\",\"panelIndex\":\"8\",\"gridData\":{\"x\":2,\"y\":3,\"w\":5,\"h\":6,\"i\":\"8\"},\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"471bb940-6cc0-11e8-acab-b78fd1091474\"},{\"title\":\"Server Geo Locations\",\"panelIndex\":\"9\",\"gridData\":{\"x\":7,\"y\":3,\"w\":5,\"h\":6,\"i\":\"9\"},\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"6662c5f0-6cc0-11e8-acab-b78fd1091474\"}]",
+      "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":false}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "629e53a0-6caf-11e8-acab-b78fd1091474",
+    "_type": "search",
+    "_source": {
+      "title": "Snort: Raw Logs",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "log.severity",
+        "class",
+        "signature",
+        "sid",
+        "client_hostname",
+        "server_hostname",
+        "service_name"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"snort-*\",\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "d52848a0-6ca9-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Raw Logs - input list",
+      "visState": "{\"title\":\"Snort: Raw Logs - input list\",\"type\":\"input_control_vis\",\"params\":{\"controls\":[{\"id\":\"1528632749822\",\"indexPattern\":\"snort-*\",\"fieldName\":\"node.hostname\",\"label\":\"Snort Instance\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":500,\"order\":\"desc\"}},{\"id\":\"1528632783332\",\"indexPattern\":\"snort-*\",\"fieldName\":\"class\",\"label\":\"Alert Class\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":1000,\"order\":\"desc\"}},{\"id\":\"1528632827123\",\"indexPattern\":\"snort-*\",\"fieldName\":\"signature\",\"label\":\"Alert Signature\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":2500,\"order\":\"desc\"}},{\"id\":\"1528633100924\",\"indexPattern\":\"snort-*\",\"fieldName\":\"log.severity\",\"label\":\"Severity\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":20,\"order\":\"desc\"}},{\"id\":\"1528633343335\",\"indexPattern\":\"snort-*\",\"fieldName\":\"client_hostname\",\"label\":\"Client\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":2500,\"order\":\"desc\"}},{\"id\":\"1528633120879\",\"indexPattern\":\"snort-*\",\"fieldName\":\"server_hostname\",\"label\":\"Server\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":2500,\"order\":\"desc\"}},{\"id\":\"1528633408161\",\"indexPattern\":\"snort-*\",\"fieldName\":\"service_name\",\"label\":\"Service\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":2500,\"order\":\"desc\"}},{\"id\":\"1528633445244\",\"indexPattern\":\"snort-*\",\"fieldName\":\"rep_tags\",\"label\":\"IP Reputation\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":500,\"order\":\"desc\"}}],\"updateFiltersOnChange\":true,\"useTimeFilter\":true},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "a0a79450-6ca9-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Threats - input list",
+      "visState": "{\"title\":\"Snort: Threats - input list\",\"type\":\"input_control_vis\",\"params\":{\"controls\":[{\"id\":\"1528632749822\",\"indexPattern\":\"snort-*\",\"fieldName\":\"node.hostname\",\"label\":\"Snort Instance\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":500,\"order\":\"desc\"}},{\"id\":\"1528632783332\",\"indexPattern\":\"snort-*\",\"fieldName\":\"class\",\"label\":\"Alert Class\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":1000,\"order\":\"desc\"}},{\"id\":\"1528632827123\",\"indexPattern\":\"snort-*\",\"fieldName\":\"signature\",\"label\":\"Alert Signature\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":2500,\"order\":\"desc\"}},{\"id\":\"1528633100924\",\"indexPattern\":\"snort-*\",\"fieldName\":\"log.severity\",\"label\":\"Severity\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":20,\"order\":\"desc\"}},{\"id\":\"1528633343335\",\"indexPattern\":\"snort-*\",\"fieldName\":\"client_hostname\",\"label\":\"Client\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":2500,\"order\":\"desc\"}},{\"id\":\"1528633120879\",\"indexPattern\":\"snort-*\",\"fieldName\":\"server_hostname\",\"label\":\"Server\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":2500,\"order\":\"desc\"}},{\"id\":\"1528633408161\",\"indexPattern\":\"snort-*\",\"fieldName\":\"service_name\",\"label\":\"Service\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":2500,\"order\":\"desc\"}},{\"id\":\"1528633445244\",\"indexPattern\":\"snort-*\",\"fieldName\":\"rep_tags\",\"label\":\"IP Reputation\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":500,\"order\":\"desc\"}}],\"updateFiltersOnChange\":true,\"useTimeFilter\":true},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "c9f883a0-6ca9-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Sankey - input list",
+      "visState": "{\"title\":\"Snort: Sankey - input list\",\"type\":\"input_control_vis\",\"params\":{\"controls\":[{\"id\":\"1528632749822\",\"indexPattern\":\"snort-*\",\"fieldName\":\"node.hostname\",\"label\":\"Snort Instance\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":500,\"order\":\"desc\"}},{\"id\":\"1528632783332\",\"indexPattern\":\"snort-*\",\"fieldName\":\"class\",\"label\":\"Alert Class\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":1000,\"order\":\"desc\"}},{\"id\":\"1528632827123\",\"indexPattern\":\"snort-*\",\"fieldName\":\"signature\",\"label\":\"Alert Signature\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":2500,\"order\":\"desc\"}},{\"id\":\"1528633100924\",\"indexPattern\":\"snort-*\",\"fieldName\":\"log.severity\",\"label\":\"Severity\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":20,\"order\":\"desc\"}},{\"id\":\"1528633343335\",\"indexPattern\":\"snort-*\",\"fieldName\":\"client_hostname\",\"label\":\"Client\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":2500,\"order\":\"desc\"}},{\"id\":\"1528633120879\",\"indexPattern\":\"snort-*\",\"fieldName\":\"server_hostname\",\"label\":\"Server\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":2500,\"order\":\"desc\"}},{\"id\":\"1528633408161\",\"indexPattern\":\"snort-*\",\"fieldName\":\"service_name\",\"label\":\"Service\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":2500,\"order\":\"desc\"}},{\"id\":\"1528633445244\",\"indexPattern\":\"snort-*\",\"fieldName\":\"rep_tags\",\"label\":\"IP Reputation\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":500,\"order\":\"desc\"}}],\"updateFiltersOnChange\":true,\"useTimeFilter\":true},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "5472c280-6ca9-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Alerts - input list",
+      "visState": "{\"title\":\"Snort: Alerts - input list\",\"type\":\"input_control_vis\",\"params\":{\"controls\":[{\"id\":\"1528632749822\",\"indexPattern\":\"snort-*\",\"fieldName\":\"node.hostname\",\"label\":\"Snort Instance\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":500,\"order\":\"desc\"}},{\"id\":\"1528632783332\",\"indexPattern\":\"snort-*\",\"fieldName\":\"class\",\"label\":\"Alert Class\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":1000,\"order\":\"desc\"}},{\"id\":\"1528632827123\",\"indexPattern\":\"snort-*\",\"fieldName\":\"signature\",\"label\":\"Alert Signature\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":2500,\"order\":\"desc\"}},{\"id\":\"1528633100924\",\"indexPattern\":\"snort-*\",\"fieldName\":\"log.severity\",\"label\":\"Severity\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":20,\"order\":\"desc\"}},{\"id\":\"1528633343335\",\"indexPattern\":\"snort-*\",\"fieldName\":\"client_hostname\",\"label\":\"Client\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":2500,\"order\":\"desc\"}},{\"id\":\"1528633120879\",\"indexPattern\":\"snort-*\",\"fieldName\":\"server_hostname\",\"label\":\"Server\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":2500,\"order\":\"desc\"}},{\"id\":\"1528633408161\",\"indexPattern\":\"snort-*\",\"fieldName\":\"service_name\",\"label\":\"Service\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":2500,\"order\":\"desc\"}},{\"id\":\"1528633445244\",\"indexPattern\":\"snort-*\",\"fieldName\":\"rep_tags\",\"label\":\"IP Reputation\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":500,\"order\":\"desc\"}}],\"updateFiltersOnChange\":true,\"useTimeFilter\":true},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "40932540-6cac-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Alerts by Severity - TSVB (stacked bar)",
+      "visState": "{\"title\":\"Snort: Alerts by Severity - TSVB (stacked bar)\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"timeseries\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"rgba(244,78,59,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":\"0\",\"point_size\":1,\"fill\":\"1\",\"stacked\":\"stacked\",\"label\":\"Alert\",\"filter\":\"priority: 1\"},{\"id\":\"445cd770-6cac-11e8-ae08-eff7138822ea\",\"color\":\"rgba(254,146,0,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"445cd771-6cac-11e8-ae08-eff7138822ea\",\"type\":\"count\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":\"0\",\"point_size\":1,\"fill\":\"1\",\"stacked\":\"stacked\",\"label\":\"Critical\",\"filter\":\"priority: 2\"},{\"id\":\"56840ef0-6cac-11e8-ae08-eff7138822ea\",\"color\":\"rgba(0,156,224,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"56843600-6cac-11e8-ae08-eff7138822ea\",\"type\":\"count\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":\"0\",\"point_size\":1,\"fill\":\"1\",\"stacked\":\"stacked\",\"label\":\"Warning\",\"filter\":\"priority: 3\"},{\"id\":\"61a7c600-6cac-11e8-ae08-eff7138822ea\",\"color\":\"rgba(171,20,158,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"61a7c601-6cac-11e8-ae08-eff7138822ea\",\"type\":\"count\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":\"0\",\"point_size\":1,\"fill\":\"1\",\"stacked\":\"stacked\",\"label\":\"Notice\",\"filter\":\"priority: 4\"},{\"id\":\"6fc200c0-6cac-11e8-ae08-eff7138822ea\",\"color\":\"rgba(123,100,255,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"6fc200c1-6cac-11e8-ae08-eff7138822ea\",\"type\":\"count\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":\"0\",\"point_size\":1,\"fill\":\"1\",\"stacked\":\"stacked\",\"label\":\"Other\",\"filter\":\"priority: [5 TO *]\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"snort-*\",\"interval\":\">=1m\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"axis_min\":\"0\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "57497740-6cab-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Alert Count (other) - TSVB (metric)",
+      "visState": "{\"title\":\"Snort: Alert Count (other) - TSVB (metric)\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"metric\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"#68BC00\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"},{\"id\":\"63c11b00-6caa-11e8-ae08-eff7138822ea\",\"type\":\"cumulative_sum\",\"field\":\"61ca57f2-469d-11e7-af02-69e470af7417\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":1,\"fill\":0.5,\"stacked\":\"none\",\"label\":\"Other\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"snort-*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"background_color_rules\":[{\"value\":0,\"id\":\"277f1480-6caa-11e8-ae08-eff7138822ea\",\"background_color\":\"rgba(153,153,153,1)\",\"opperator\":\"lte\"},{\"value\":1,\"id\":\"47a388e0-6caa-11e8-ae08-eff7138822ea\",\"background_color\":\"rgba(123,100,255,1)\",\"opperator\":\"gte\"}],\"filter\":\"priority: [5 TO *]\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "f4ed1b60-6caa-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Alert Count (warning) - TSVB (metric)",
+      "visState": "{\"title\":\"Snort: Alert Count (warning) - TSVB (metric)\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"metric\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"#68BC00\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"},{\"id\":\"63c11b00-6caa-11e8-ae08-eff7138822ea\",\"type\":\"cumulative_sum\",\"field\":\"61ca57f2-469d-11e7-af02-69e470af7417\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":1,\"fill\":0.5,\"stacked\":\"none\",\"label\":\"Warning\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"snort-*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"background_color_rules\":[{\"value\":0,\"id\":\"277f1480-6caa-11e8-ae08-eff7138822ea\",\"background_color\":\"rgba(153,153,153,1)\",\"opperator\":\"lte\"},{\"value\":1,\"id\":\"47a388e0-6caa-11e8-ae08-eff7138822ea\",\"background_color\":\"rgba(0,156,224,1)\",\"opperator\":\"gte\"}],\"filter\":\"priority: 3\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "1d6f9720-6cab-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Alert Count (notice) - TSVB (metric)",
+      "visState": "{\"title\":\"Snort: Alert Count (notice) - TSVB (metric)\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"metric\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"#68BC00\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"},{\"id\":\"63c11b00-6caa-11e8-ae08-eff7138822ea\",\"type\":\"cumulative_sum\",\"field\":\"61ca57f2-469d-11e7-af02-69e470af7417\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":1,\"fill\":0.5,\"stacked\":\"none\",\"label\":\"Notice\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"snort-*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"background_color_rules\":[{\"value\":0,\"id\":\"277f1480-6caa-11e8-ae08-eff7138822ea\",\"background_color\":\"rgba(153,153,153,1)\",\"opperator\":\"lte\"},{\"value\":1,\"id\":\"47a388e0-6caa-11e8-ae08-eff7138822ea\",\"background_color\":\"rgba(171,20,158,1)\",\"opperator\":\"gte\"}],\"filter\":\"priority: 4\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "b45a5860-6caa-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Alert Count (critical) - TSVB (metric)",
+      "visState": "{\"title\":\"Snort: Alert Count (critical) - TSVB (metric)\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"metric\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"#68BC00\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"},{\"id\":\"63c11b00-6caa-11e8-ae08-eff7138822ea\",\"type\":\"cumulative_sum\",\"field\":\"61ca57f2-469d-11e7-af02-69e470af7417\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":1,\"fill\":0.5,\"stacked\":\"none\",\"label\":\"Critical\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"snort-*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"background_color_rules\":[{\"value\":0,\"id\":\"277f1480-6caa-11e8-ae08-eff7138822ea\",\"background_color\":\"rgba(153,153,153,1)\",\"opperator\":\"lte\"},{\"value\":1,\"id\":\"47a388e0-6caa-11e8-ae08-eff7138822ea\",\"background_color\":\"rgba(254,146,0,1)\",\"opperator\":\"gte\"}],\"filter\":\"priority: 2\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "7e83b100-6caa-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Alert Count (alert) - TSVB (metric)",
+      "visState": "{\"title\":\"Snort: Alert Count (alert) - TSVB (metric)\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"metric\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"#68BC00\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"},{\"id\":\"63c11b00-6caa-11e8-ae08-eff7138822ea\",\"type\":\"cumulative_sum\",\"field\":\"61ca57f2-469d-11e7-af02-69e470af7417\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":1,\"fill\":0.5,\"stacked\":\"none\",\"label\":\"Alert\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"snort-*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"background_color_rules\":[{\"value\":0,\"id\":\"277f1480-6caa-11e8-ae08-eff7138822ea\",\"background_color\":\"rgba(153,153,153,1)\",\"opperator\":\"lte\"},{\"value\":1,\"id\":\"47a388e0-6caa-11e8-ae08-eff7138822ea\",\"background_color\":\"rgba(244,78,59,1)\",\"opperator\":\"gte\"}],\"filter\":\"priority: 1\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "7e0c68b0-6cab-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Logo",
+      "visState": "{\"title\":\"Snort: Logo\",\"type\":\"markdown\",\"params\":{\"fontSize\":12,\"markdown\":\"[![KOIOSSIAN](http://www.koiossian.com/public/koiossian-logo.svg)](http://www.koiossian.com)\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "da0801e0-6cad-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Autonomous Systems - donut",
+      "visState": "{\"title\":\"Snort: Autonomous Systems - donut\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"labels\":{\"show\":false,\"values\":true,\"last_level\":true,\"truncate\":100}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"autonomous_system\",\"otherBucket\":true,\"otherBucketLabel\":\"other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":49,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Autonomous System\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"snort-*\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "adae3f60-6cad-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Alert Signatures - donut",
+      "visState": "{\"title\":\"Snort: Alert Signatures - donut\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"labels\":{\"show\":false,\"values\":true,\"last_level\":true,\"truncate\":100}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"signature\",\"otherBucket\":true,\"otherBucketLabel\":\"other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":49,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Signature\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"snort-*\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "2831bb50-6cad-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Clients - donut",
+      "visState": "{\"title\":\"Snort: Clients - donut\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"labels\":{\"show\":false,\"values\":true,\"last_level\":true,\"truncate\":100}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"client_hostname\",\"otherBucket\":true,\"otherBucketLabel\":\"other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":49,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Client\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"snort-*\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "43310c30-6cad-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Servers - donut",
+      "visState": "{\"title\":\"Snort: Servers - donut\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"labels\":{\"show\":false,\"values\":true,\"last_level\":true,\"truncate\":100}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"server_hostname\",\"otherBucket\":true,\"otherBucketLabel\":\"other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":49,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Server\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"snort-*\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "9cabb1c0-6cad-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Alert Classes - donut",
+      "visState": "{\"title\":\"Snort: Alert Classes - donut\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"labels\":{\"show\":false,\"values\":true,\"last_level\":true,\"truncate\":100}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"class\",\"otherBucket\":true,\"otherBucketLabel\":\"other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":49,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Class\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"snort-*\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "6709fd10-6cad-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Services - donut",
+      "visState": "{\"title\":\"Snort: Services - donut\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"labels\":{\"show\":false,\"values\":true,\"last_level\":true,\"truncate\":100}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"service_name\",\"otherBucket\":true,\"otherBucketLabel\":\"other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":49,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Service\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"snort-*\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "0c98a600-6cae-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Countries - donut",
+      "visState": "{\"title\":\"Snort: Countries - donut\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"labels\":{\"show\":false,\"values\":true,\"last_level\":true,\"truncate\":100}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"country\",\"otherBucket\":true,\"otherBucketLabel\":\"other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":49,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Country\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"snort-*\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "ead06cb0-6cad-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Cities - donut",
+      "visState": "{\"title\":\"Snort: Cities - donut\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"labels\":{\"show\":false,\"values\":true,\"last_level\":true,\"truncate\":100}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"city\",\"otherBucket\":true,\"otherBucketLabel\":\"other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":49,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"City\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"snort-*\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "2d3557a0-6cae-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Vulnerabilities - donut",
+      "visState": "{\"title\":\"Snort: Vulnerabilities - donut\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"labels\":{\"show\":false,\"values\":true,\"last_level\":true,\"truncate\":100}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"cve\",\"otherBucket\":true,\"otherBucketLabel\":\"other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":49,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Vulnerability\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"snort-*\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "7554ef50-6cae-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Traffic Locality - donut",
+      "visState": "{\"title\":\"Snort: Traffic Locality - donut\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"labels\":{\"show\":false,\"values\":true,\"last_level\":true,\"truncate\":100}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"traffic_locality\",\"otherBucket\":true,\"otherBucketLabel\":\"other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":49,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Locality\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"snort-*\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "6144faa0-6cae-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: IP Reputations - donut",
+      "visState": "{\"title\":\"Snort: IP Reputations - donut\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"labels\":{\"show\":false,\"values\":true,\"last_level\":true,\"truncate\":100}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"rep_tags\",\"otherBucket\":true,\"otherBucketLabel\":\"other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":49,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"IP Reputation\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"snort-*\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "4e5d5950-6cae-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: IP Protocol - donut",
+      "visState": "{\"title\":\"Snort: IP Protocol - donut\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"labels\":{\"show\":false,\"values\":true,\"last_level\":true,\"truncate\":100}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"proto\",\"otherBucket\":true,\"otherBucketLabel\":\"other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":49,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"IP Protocol\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"snort-*\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "2d2da490-6cb0-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Alert Count (all) - TSVB (metric)",
+      "visState": "{\"title\":\"Snort: Alert Count (all) - TSVB (metric)\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"metric\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"#68BC00\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"},{\"id\":\"08233890-6cb0-11e8-ae08-eff7138822ea\",\"type\":\"cumulative_sum\",\"field\":\"61ca57f2-469d-11e7-af02-69e470af7417\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":1,\"fill\":0.5,\"stacked\":\"none\",\"label\":\"Alerts\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"snort-*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"background_color_rules\":[{\"id\":\"014604d0-6cb0-11e8-ae08-eff7138822ea\"}]},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "9fec8810-6cb1-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: NAV: Geo IP",
+      "visState": "{\"title\":\"Snort: NAV: Geo IP\",\"type\":\"markdown\",\"params\":{\"fontSize\":11,\"markdown\":\"[Alerts](#/dashboard/e3c64770-6cab-11e8-acab-b78fd1091474) | [Threats](#/dashboard/a22c8270-6cb0-11e8-acab-b78fd1091474) | [Sankey](#/dashboard/74b4a5c0-6cb0-11e8-acab-b78fd1091474) | [**Geo IP**](#/dashboard/d7078bc0-6cb0-11e8-acab-b78fd1091474) | [Raw Logs](#/dashboard/b5057330-6caf-11e8-acab-b78fd1091474)\\n![](http://www.koiossian.com/public/snort.gif)\\n***\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "7d1fb000-6cb1-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: NAV: Threats",
+      "visState": "{\"title\":\"Snort: NAV: Threats\",\"type\":\"markdown\",\"params\":{\"fontSize\":11,\"markdown\":\"[Alerts](#/dashboard/e3c64770-6cab-11e8-acab-b78fd1091474) | [**Threats**](#/dashboard/a22c8270-6cb0-11e8-acab-b78fd1091474) | [Sankey](#/dashboard/74b4a5c0-6cb0-11e8-acab-b78fd1091474) | [Geo IP](#/dashboard/d7078bc0-6cb0-11e8-acab-b78fd1091474) | [Raw Logs](#/dashboard/b5057330-6caf-11e8-acab-b78fd1091474)\\n![](http://www.koiossian.com/public/snort.gif)\\n***\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "0f385b50-6ca7-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: NAV: Alerts",
+      "visState": "{\"title\":\"Snort: NAV: Alerts\",\"type\":\"markdown\",\"params\":{\"fontSize\":11,\"markdown\":\"[**Alerts**](#/dashboard/e3c64770-6cab-11e8-acab-b78fd1091474) | [Threats](#/dashboard/a22c8270-6cb0-11e8-acab-b78fd1091474) | [Sankey](#/dashboard/74b4a5c0-6cb0-11e8-acab-b78fd1091474) | [Geo IP](#/dashboard/d7078bc0-6cb0-11e8-acab-b78fd1091474) | [Raw Logs](#/dashboard/b5057330-6caf-11e8-acab-b78fd1091474)\\n![](http://www.koiossian.com/public/snort.gif)\\n***\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "8a4b9320-6cb1-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: NAV: Sankey",
+      "visState": "{\"title\":\"Snort: NAV: Sankey\",\"type\":\"markdown\",\"params\":{\"fontSize\":11,\"markdown\":\"[Alerts](#/dashboard/e3c64770-6cab-11e8-acab-b78fd1091474) | [Threats](#/dashboard/a22c8270-6cb0-11e8-acab-b78fd1091474) | [**Sankey**](#/dashboard/74b4a5c0-6cb0-11e8-acab-b78fd1091474) | [Geo IP](#/dashboard/d7078bc0-6cb0-11e8-acab-b78fd1091474) | [Raw Logs](#/dashboard/b5057330-6caf-11e8-acab-b78fd1091474)\\n![](http://www.koiossian.com/public/snort.gif)\\n***\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "c4b11c00-6cb2-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: NAV: Threats (high-risk clients)",
+      "visState": "{\"title\":\"Snort: NAV: Threats (high-risk clients)\",\"type\":\"markdown\",\"params\":{\"fontSize\":11,\"markdown\":\"[Public Attackers](#/dashboard/a22c8270-6cb0-11e8-acab-b78fd1091474) | [At-Risk Servers](#/dashboard/3c4fa070-6cb2-11e8-acab-b78fd1091474) | [At-Risk Services](#/dashboard/529eafb0-6cb2-11e8-acab-b78fd1091474) | [**High-Risk Clients**](#/dashboard/72d8a7e0-6cb2-11e8-acab-b78fd1091474)\\n![](http://www.koiossian.com/public/snort.gif)\\n***\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "b31eaa70-6cb2-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: NAV: Threats (at-risk services)",
+      "visState": "{\"title\":\"Snort: NAV: Threats (at-risk services)\",\"type\":\"markdown\",\"params\":{\"fontSize\":11,\"markdown\":\"[Public Attackers](#/dashboard/a22c8270-6cb0-11e8-acab-b78fd1091474) | [At-Risk Servers](#/dashboard/3c4fa070-6cb2-11e8-acab-b78fd1091474) | [**At-Risk Services**](#/dashboard/529eafb0-6cb2-11e8-acab-b78fd1091474) | [High-Risk Clients](#/dashboard/72d8a7e0-6cb2-11e8-acab-b78fd1091474)\\n![](http://www.koiossian.com/public/snort.gif)\\n***\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "a264be90-6cb2-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: NAV: Threats (at-risk servers)",
+      "visState": "{\"title\":\"Snort: NAV: Threats (at-risk servers)\",\"type\":\"markdown\",\"params\":{\"fontSize\":11,\"markdown\":\"[Public Attackers](#/dashboard/a22c8270-6cb0-11e8-acab-b78fd1091474) | [**At-Risk Servers**](#/dashboard/3c4fa070-6cb2-11e8-acab-b78fd1091474) | [At-Risk Services](#/dashboard/529eafb0-6cb2-11e8-acab-b78fd1091474) | [High-Risk Clients](#/dashboard/72d8a7e0-6cb2-11e8-acab-b78fd1091474)\\n![](http://www.koiossian.com/public/snort.gif)\\n***\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "0a068ca0-6cb2-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: NAV: Threats (public attackers)",
+      "visState": "{\"title\":\"Snort: NAV: Threats (public attackers)\",\"type\":\"markdown\",\"params\":{\"fontSize\":11,\"markdown\":\"[**Public Attackers**](#/dashboard/a22c8270-6cb0-11e8-acab-b78fd1091474) | [At-Risk Servers](#/dashboard/3c4fa070-6cb2-11e8-acab-b78fd1091474) | [At-Risk Services](#/dashboard/529eafb0-6cb2-11e8-acab-b78fd1091474) | [High-Risk Clients](#/dashboard/72d8a7e0-6cb2-11e8-acab-b78fd1091474)\\n![](http://www.koiossian.com/public/snort.gif)\\n***\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "ade13970-6cb1-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: NAV: Raw Logs",
+      "visState": "{\"title\":\"Snort: NAV: Raw Logs\",\"type\":\"markdown\",\"params\":{\"fontSize\":11,\"markdown\":\"[Alerts](#/dashboard/e3c64770-6cab-11e8-acab-b78fd1091474) | [Threats](#/dashboard/a22c8270-6cb0-11e8-acab-b78fd1091474) | [Sankey](#/dashboard/74b4a5c0-6cb0-11e8-acab-b78fd1091474) | [Geo IP](#/dashboard/d7078bc0-6cb0-11e8-acab-b78fd1091474) | [**Raw Logs**](#/dashboard/b5057330-6caf-11e8-acab-b78fd1091474)\\n![](http://www.koiossian.com/public/snort.gif)\\n***\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "9236d420-6cb4-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Geo IP - input list",
+      "visState": "{\"title\":\"Snort: Geo IP - input list\",\"type\":\"input_control_vis\",\"params\":{\"controls\":[{\"id\":\"1528632749822\",\"indexPattern\":\"snort-*\",\"fieldName\":\"node.hostname\",\"label\":\"Snort Instance\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":500,\"order\":\"desc\"}},{\"id\":\"1528632783332\",\"indexPattern\":\"snort-*\",\"fieldName\":\"country\",\"label\":\"Country\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":250,\"order\":\"desc\"}},{\"id\":\"1528632827123\",\"indexPattern\":\"snort-*\",\"fieldName\":\"city\",\"label\":\"City\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":2000,\"order\":\"desc\"}},{\"id\":\"1528633100924\",\"indexPattern\":\"snort-*\",\"fieldName\":\"log.severity\",\"label\":\"Severity\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":20,\"order\":\"desc\"}},{\"id\":\"1528633343335\",\"indexPattern\":\"snort-*\",\"fieldName\":\"client_hostname\",\"label\":\"Client\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":2500,\"order\":\"desc\"}},{\"id\":\"1528633120879\",\"indexPattern\":\"snort-*\",\"fieldName\":\"server_hostname\",\"label\":\"Server\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":2500,\"order\":\"desc\"}},{\"id\":\"1528633408161\",\"indexPattern\":\"snort-*\",\"fieldName\":\"service_name\",\"label\":\"Service\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":2500,\"order\":\"desc\"}},{\"id\":\"1528633445244\",\"indexPattern\":\"snort-*\",\"fieldName\":\"rep_tags\",\"label\":\"IP Reputation\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":500,\"order\":\"desc\"}}],\"updateFiltersOnChange\":true,\"useTimeFilter\":true},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "63333c70-6cb6-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Threat (High-Risk Clients) by Alert Severity & IP Reputation - TSVB (stacked bar)",
+      "visState": "{\"title\":\"Snort: Threat (High-Risk Clients) by Alert Severity & IP Reputation - TSVB (stacked bar)\",\"type\":\"metrics\",\"params\":{\"annotations\":[],\"axis_formatter\":\"number\",\"axis_min\":\"0\",\"axis_position\":\"left\",\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"index_pattern\":\"snort-*\",\"interval\":\">=1m\",\"series\":[{\"id\":\"645fe9d0-6659-11e8-9465-c9d44be09ca7\",\"color\":\"rgba(0,98,177,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"646010e0-6659-11e8-9465-c9d44be09ca7\",\"type\":\"count\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":\"3\",\"point_size\":\"0\",\"fill\":\"0\",\"stacked\":\"none\",\"filter\":\"_exists_: rep_tags\",\"axis_min\":\"\",\"label\":\"Bad Reputation\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(244,78,59,1)\",\"fill\":\"1\",\"filter\":\"priority: 1\",\"formatter\":\"number\",\"id\":\"e1d24840-64ab-11e8-ad8a-29349eba0f86\",\"label\":\"Alert\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"e1d24841-64ab-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(254,146,0,1)\",\"fill\":\"1\",\"filter\":\"priority: 2\",\"formatter\":\"number\",\"id\":\"fc678cb0-64ab-11e8-ad8a-29349eba0f86\",\"label\":\"Critical\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"fc678cb1-64ab-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(0,156,224,1)\",\"fill\":\"1\",\"filter\":\"priority: 3\",\"formatter\":\"number\",\"id\":\"1b391b40-64ac-11e8-ad8a-29349eba0f86\",\"label\":\"Warning\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"1b391b41-64ac-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(171,20,158,1)\",\"fill\":\"1\",\"filter\":\"priority: 4\",\"formatter\":\"number\",\"id\":\"33888e60-64ac-11e8-ad8a-29349eba0f86\",\"label\":\"Notice\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"33888e61-64ac-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(123,100,255,1)\",\"fill\":\"1\",\"filter\":\"priority: [5 TO *]\",\"formatter\":\"number\",\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"label\":\"Other\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"}],\"point_size\":1,\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\",\"value_template\":\"{{value}}\"}],\"show_grid\":1,\"show_legend\":1,\"time_field\":\"@timestamp\",\"type\":\"timeseries\",\"filter\":\"client_autonomous_system: private AND NOT server_autonomous_system: private\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "7237d730-6cb6-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Threat (Public Attackers) by Alert Severity & IP Reputation - TSVB (stacked bar)",
+      "visState": "{\"title\":\"Snort: Threat (Public Attackers) by Alert Severity & IP Reputation - TSVB (stacked bar)\",\"type\":\"metrics\",\"params\":{\"annotations\":[],\"axis_formatter\":\"number\",\"axis_min\":\"0\",\"axis_position\":\"left\",\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"index_pattern\":\"snort-*\",\"interval\":\">=1m\",\"series\":[{\"id\":\"645fe9d0-6659-11e8-9465-c9d44be09ca7\",\"color\":\"rgba(0,98,177,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"646010e0-6659-11e8-9465-c9d44be09ca7\",\"type\":\"count\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":\"3\",\"point_size\":\"0\",\"fill\":\"0\",\"stacked\":\"none\",\"filter\":\"_exists_: rep_tags\",\"axis_min\":\"\",\"label\":\"Bad Reputation\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(244,78,59,1)\",\"fill\":\"1\",\"filter\":\"priority: 1\",\"formatter\":\"number\",\"id\":\"e1d24840-64ab-11e8-ad8a-29349eba0f86\",\"label\":\"Alert\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"e1d24841-64ab-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(254,146,0,1)\",\"fill\":\"1\",\"filter\":\"priority: 2\",\"formatter\":\"number\",\"id\":\"fc678cb0-64ab-11e8-ad8a-29349eba0f86\",\"label\":\"Critical\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"fc678cb1-64ab-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(0,156,224,1)\",\"fill\":\"1\",\"filter\":\"priority: 3\",\"formatter\":\"number\",\"id\":\"1b391b40-64ac-11e8-ad8a-29349eba0f86\",\"label\":\"Warning\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"1b391b41-64ac-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(171,20,158,1)\",\"fill\":\"1\",\"filter\":\"priority: 4\",\"formatter\":\"number\",\"id\":\"33888e60-64ac-11e8-ad8a-29349eba0f86\",\"label\":\"Notice\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"33888e61-64ac-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(123,100,255,1)\",\"fill\":\"1\",\"filter\":\"priority: [5 TO *]\",\"formatter\":\"number\",\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"label\":\"Other\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"}],\"point_size\":1,\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\",\"value_template\":\"{{value}}\"}],\"show_grid\":1,\"show_legend\":1,\"time_field\":\"@timestamp\",\"type\":\"timeseries\",\"filter\":\"NOT client_autonomous_system: private\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "3080df80-6cb6-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Threat (At-Risk Servers) by Alert Severity & IP Reputation - TSVB (stacked bar)",
+      "visState": "{\"title\":\"Snort: Threat (At-Risk Servers) by Alert Severity & IP Reputation - TSVB (stacked bar)\",\"type\":\"metrics\",\"params\":{\"annotations\":[],\"axis_formatter\":\"number\",\"axis_min\":\"0\",\"axis_position\":\"left\",\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"index_pattern\":\"snort-*\",\"interval\":\">=1m\",\"series\":[{\"id\":\"645fe9d0-6659-11e8-9465-c9d44be09ca7\",\"color\":\"rgba(0,98,177,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"646010e0-6659-11e8-9465-c9d44be09ca7\",\"type\":\"count\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":\"3\",\"point_size\":\"0\",\"fill\":\"0\",\"stacked\":\"none\",\"filter\":\"_exists_: rep_tags\",\"axis_min\":\"\",\"label\":\"Bad Reputation\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(244,78,59,1)\",\"fill\":\"1\",\"filter\":\"priority: 1\",\"formatter\":\"number\",\"id\":\"e1d24840-64ab-11e8-ad8a-29349eba0f86\",\"label\":\"Alert\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"e1d24841-64ab-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(254,146,0,1)\",\"fill\":\"1\",\"filter\":\"priority: 2\",\"formatter\":\"number\",\"id\":\"fc678cb0-64ab-11e8-ad8a-29349eba0f86\",\"label\":\"Critical\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"fc678cb1-64ab-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(0,156,224,1)\",\"fill\":\"1\",\"filter\":\"priority: 3\",\"formatter\":\"number\",\"id\":\"1b391b40-64ac-11e8-ad8a-29349eba0f86\",\"label\":\"Warning\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"1b391b41-64ac-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(171,20,158,1)\",\"fill\":\"1\",\"filter\":\"priority: 4\",\"formatter\":\"number\",\"id\":\"33888e60-64ac-11e8-ad8a-29349eba0f86\",\"label\":\"Notice\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"33888e61-64ac-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(123,100,255,1)\",\"fill\":\"1\",\"filter\":\"priority: [5 TO *]\",\"formatter\":\"number\",\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"label\":\"Other\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"}],\"point_size\":1,\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\",\"value_template\":\"{{value}}\"}],\"show_grid\":1,\"show_legend\":1,\"time_field\":\"@timestamp\",\"type\":\"timeseries\",\"filter\":\"server_autonomous_system: private\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "44b76f00-6cb6-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Threat (High-Risk Clients) - Count - TSVB (metric)",
+      "visState": "{\"title\":\"Snort: Threat (High-Risk Clients) - Count - TSVB (metric)\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"metric\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"rgba(144,201,227,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"},{\"id\":\"69310560-64a2-11e8-99f1-8985c7aed077\",\"type\":\"cumulative_sum\",\"field\":\"61ca57f2-469d-11e7-af02-69e470af7417\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":1,\"point_size\":1,\"fill\":\"0.6\",\"stacked\":\"none\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\",\"label\":\"Threats\",\"filter\":\"\",\"series_drop_last_bucket\":0}],\"time_field\":\"@timestamp\",\"index_pattern\":\"snort-*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"annotations\":[{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:alert\",\"id\":\"3d25aed0-6493-11e8-99f1-8985c7aed077\",\"color\":\"#F00\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:critical\",\"id\":\"78f5d950-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(251,158,0,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:warning\",\"id\":\"e83c7b70-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(0,156,224,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:notice\",\"id\":\"f7dda450-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(171,20,158,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-tag\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1}],\"background_color_rules\":[{\"id\":\"b815afa0-663c-11e8-b6ec-5d5d71f405df\"}],\"filter\":\"client_autonomous_system: private AND NOT server_autonomous_system: private\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "6889a920-6cb6-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Threat (Public Attackers) - Count - TSVB (metric)",
+      "visState": "{\"title\":\"Snort: Threat (Public Attackers) - Count - TSVB (metric)\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"metric\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"rgba(144,201,227,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"},{\"id\":\"69310560-64a2-11e8-99f1-8985c7aed077\",\"type\":\"cumulative_sum\",\"field\":\"61ca57f2-469d-11e7-af02-69e470af7417\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":1,\"point_size\":1,\"fill\":\"0.6\",\"stacked\":\"none\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\",\"label\":\"Threats\",\"filter\":\"\",\"series_drop_last_bucket\":0}],\"time_field\":\"@timestamp\",\"index_pattern\":\"snort-*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"annotations\":[{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:alert\",\"id\":\"3d25aed0-6493-11e8-99f1-8985c7aed077\",\"color\":\"#F00\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:critical\",\"id\":\"78f5d950-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(251,158,0,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:warning\",\"id\":\"e83c7b70-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(0,156,224,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:notice\",\"id\":\"f7dda450-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(171,20,158,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-tag\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1}],\"background_color_rules\":[{\"id\":\"b815afa0-663c-11e8-b6ec-5d5d71f405df\"}],\"filter\":\"NOT client_autonomous_system: private\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "3ca368f0-6cb6-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Threat (At-Risk Servers) - Count - TSVB (metric)",
+      "visState": "{\"title\":\"Snort: Threat (At-Risk Servers) - Count - TSVB (metric)\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"metric\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"rgba(144,201,227,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"},{\"id\":\"69310560-64a2-11e8-99f1-8985c7aed077\",\"type\":\"cumulative_sum\",\"field\":\"61ca57f2-469d-11e7-af02-69e470af7417\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":1,\"point_size\":1,\"fill\":\"0.6\",\"stacked\":\"none\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\",\"label\":\"Threats\",\"filter\":\"\",\"series_drop_last_bucket\":0}],\"time_field\":\"@timestamp\",\"index_pattern\":\"snort-*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"annotations\":[{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:alert\",\"id\":\"3d25aed0-6493-11e8-99f1-8985c7aed077\",\"color\":\"#F00\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:critical\",\"id\":\"78f5d950-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(251,158,0,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:warning\",\"id\":\"e83c7b70-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(0,156,224,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:notice\",\"id\":\"f7dda450-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(171,20,158,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-tag\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1}],\"background_color_rules\":[{\"id\":\"b815afa0-663c-11e8-b6ec-5d5d71f405df\"}],\"filter\":\"server_autonomous_system: private\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "a982e430-6cb8-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Threats (At-Risk Servers) - Signatures - table",
+      "visState": "{\"title\":\"Snort: Threats (At-Risk Servers) - Signatures - table\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":2,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Alerts\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"signature\",\"otherBucket\":true,\"otherBucketLabel\":\"other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":99,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Signature\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"sid\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Signature ID\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":2,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"snort-*\",\"filter\":[{\"meta\":{\"index\":\"snort-*\",\"negate\":true,\"disabled\":false,\"alias\":\"Private\",\"type\":\"phrase\",\"key\":\"client_autonomous_system\",\"value\":\"private\",\"params\":{\"query\":\"private\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"client_autonomous_system\":{\"query\":\"private\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "01686040-6cb8-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Threats (Public Attackers) - Signatures - table",
+      "visState": "{\"title\":\"Snort: Threats (Public Attackers) - Signatures - table\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":2,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Alerts\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"signature\",\"otherBucket\":true,\"otherBucketLabel\":\"other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":99,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Signature\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"sid\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Signature ID\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":2,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"snort-*\",\"filter\":[{\"meta\":{\"index\":\"snort-*\",\"negate\":true,\"disabled\":false,\"alias\":\"Private\",\"type\":\"phrase\",\"key\":\"client_autonomous_system\",\"value\":\"private\",\"params\":{\"query\":\"private\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"client_autonomous_system\":{\"query\":\"private\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "47de5c10-6cb7-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Threats - Public Attackers - table",
+      "visState": "{\"title\":\"Snort: Threats - Public Attackers - table\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":2,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Alerts\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"client_hostname\",\"otherBucket\":true,\"otherBucketLabel\":\"other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":99,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Client\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"client_ip\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Client IP\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":2,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"snort-*\",\"filter\":[{\"meta\":{\"index\":\"snort-*\",\"negate\":true,\"disabled\":false,\"alias\":\"Private\",\"type\":\"phrase\",\"key\":\"client_autonomous_system\",\"value\":\"private\",\"params\":{\"query\":\"private\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"client_autonomous_system\":{\"query\":\"private\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "a2bdf360-6cb8-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Threats - At-Risk Servers - table",
+      "visState": "{\"title\":\"Snort: Threats - At-Risk Servers - table\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":2,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Alerts\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"server_hostname\",\"otherBucket\":true,\"otherBucketLabel\":\"other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":99,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Client\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"server_ip\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Client IP\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":2,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"snort-*\",\"filter\":[{\"meta\":{\"index\":\"snort-*\",\"negate\":false,\"disabled\":false,\"alias\":\"Private\",\"type\":\"phrase\",\"key\":\"server_autonomous_system\",\"value\":\"private\",\"params\":{\"query\":\"private\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"server_autonomous_system\":{\"query\":\"private\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "4acea8c0-6cb8-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Threats (Public Attackers) - IP Reputations - table",
+      "visState": "{\"title\":\"Snort: Threats (Public Attackers) - IP Reputations - table\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Alerts\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"rep_tags\",\"otherBucket\":true,\"otherBucketLabel\":\"other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":99,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"IP Reputation\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"snort-*\",\"filter\":[{\"meta\":{\"index\":\"snort-*\",\"negate\":true,\"disabled\":false,\"alias\":\"Private\",\"type\":\"phrase\",\"key\":\"client_autonomous_system\",\"value\":\"private\",\"params\":{\"query\":\"private\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"client_autonomous_system\":{\"query\":\"private\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "b13ae790-6cb8-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Threats (At-Risk Servers) - Vulnerabilities - table",
+      "visState": "{\"title\":\"Snort: Threats (At-Risk Servers) - Vulnerabilities - table\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Alerts\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"cve\",\"otherBucket\":true,\"otherBucketLabel\":\"other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":99,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Vulnerability\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"snort-*\",\"filter\":[{\"meta\":{\"index\":\"snort-*\",\"negate\":false,\"disabled\":false,\"alias\":\"Private\",\"type\":\"phrase\",\"key\":\"server_autonomous_system\",\"value\":\"private\",\"params\":{\"query\":\"private\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"server_autonomous_system\":{\"query\":\"private\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "b6ac0830-6cb8-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Threats (At-Risk Servers) - IP Reputations - table",
+      "visState": "{\"title\":\"Snort: Threats (At-Risk Servers) - IP Reputations - table\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Alerts\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"rep_tags\",\"otherBucket\":true,\"otherBucketLabel\":\"other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":99,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"IP Reputation\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"snort-*\",\"filter\":[{\"meta\":{\"index\":\"snort-*\",\"negate\":false,\"disabled\":false,\"alias\":\"Private\",\"type\":\"phrase\",\"key\":\"server_autonomous_system\",\"value\":\"private\",\"params\":{\"query\":\"private\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"server_autonomous_system\":{\"query\":\"private\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "2d5b71b0-6cb8-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Threats (Public Attackers) - Vulnerabilities - table",
+      "visState": "{\"title\":\"Snort: Threats (Public Attackers) - Vulnerabilities - table\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Alerts\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"cve\",\"otherBucket\":true,\"otherBucketLabel\":\"other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":99,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Vulnerability\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"snort-*\",\"filter\":[{\"meta\":{\"index\":\"snort-*\",\"negate\":true,\"disabled\":false,\"alias\":\"Private\",\"type\":\"phrase\",\"key\":\"client_autonomous_system\",\"value\":\"private\",\"params\":{\"query\":\"private\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"client_autonomous_system\":{\"query\":\"private\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "2de158a0-6cba-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Threats (High-Risk Clients) - Signatures - table",
+      "visState": "{\"title\":\"Snort: Threats (High-Risk Clients) - Signatures - table\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":2,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Alerts\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"signature\",\"otherBucket\":true,\"otherBucketLabel\":\"other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":99,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Signature\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"sid\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Signature ID\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":2,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"snort-*\",\"filter\":[{\"meta\":{\"index\":\"snort-*\",\"negate\":false,\"disabled\":false,\"alias\":\"Private\",\"type\":\"phrase\",\"key\":\"client_autonomous_system\",\"value\":\"private\",\"params\":{\"query\":\"private\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"client_autonomous_system\":{\"query\":\"private\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "42de88f0-6cb9-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Threats - At-Risk Services - table",
+      "visState": "{\"title\":\"Snort: Threats - At-Risk Services - table\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":2,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Alerts\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"service_name\",\"otherBucket\":true,\"otherBucketLabel\":\"other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":99,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Service\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"service_port\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Port\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":2,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"snort-*\",\"filter\":[{\"meta\":{\"index\":\"snort-*\",\"negate\":false,\"disabled\":false,\"alias\":\"Private\",\"type\":\"phrase\",\"key\":\"server_autonomous_system\",\"value\":\"private\",\"params\":{\"query\":\"private\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"server_autonomous_system\":{\"query\":\"private\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "1ce77d90-6cba-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Threats - High-Risk Clients - table",
+      "visState": "{\"title\":\"Snort: Threats - High-Risk Clients - table\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":2,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Alerts\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"client_hostname\",\"otherBucket\":true,\"otherBucketLabel\":\"other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":99,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Client\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"client_ip\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Client IP\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":2,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"snort-*\",\"filter\":[{\"meta\":{\"index\":\"snort-*\",\"negate\":false,\"disabled\":false,\"alias\":\"Private\",\"type\":\"phrase\",\"key\":\"client_autonomous_system\",\"value\":\"private\",\"params\":{\"query\":\"private\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"client_autonomous_system\":{\"query\":\"private\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "421947b0-6cba-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Threats (High-Risk Clients) - Vulnerabilities - table",
+      "visState": "{\"title\":\"Snort: Threats (High-Risk Clients) - Vulnerabilities - table\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Alerts\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"cve\",\"otherBucket\":true,\"otherBucketLabel\":\"other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":99,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Vulnerability\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"snort-*\",\"filter\":[{\"meta\":{\"index\":\"snort-*\",\"negate\":false,\"disabled\":false,\"alias\":\"Private\",\"type\":\"phrase\",\"key\":\"client_autonomous_system\",\"value\":\"private\",\"params\":{\"query\":\"private\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"client_autonomous_system\":{\"query\":\"private\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "51319180-6cba-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Threats (High-Risk Clients) - IP Reputations - table",
+      "visState": "{\"title\":\"Snort: Threats (High-Risk Clients) - IP Reputations - table\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Alerts\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"rep_tags\",\"otherBucket\":true,\"otherBucketLabel\":\"other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":99,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"IP Reputation\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"snort-*\",\"filter\":[{\"meta\":{\"index\":\"snort-*\",\"negate\":false,\"disabled\":false,\"alias\":\"Private\",\"type\":\"phrase\",\"key\":\"client_autonomous_system\",\"value\":\"private\",\"params\":{\"query\":\"private\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"client_autonomous_system\":{\"query\":\"private\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "88a92560-6cbf-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Sankey (client/server) - Vega",
+      "visState": "{\"title\":\"Snort: Sankey (client/server) - Vega\",\"type\":\"vega\",\"params\":{\"spec\":\"{\\n  \\\"$schema\\\": \\\"https://vega.github.io/schema/vega/v3.0.json\\\",\\n  \\\"data\\\": [\\n    {\\n      \\\"name\\\": \\\"rawData\\\",\\n      \\\"url\\\": {\\n        \\\"%context%\\\": true,\\n        \\\"%timefield%\\\": \\\"@timestamp\\\",\\n        \\\"index\\\": \\\"snort-*\\\",\\n        \\\"body\\\": {\\n          \\\"size\\\": 0,\\n          \\\"aggs\\\": {\\n            \\\"table\\\": {\\n              \\\"composite\\\": {\\n                \\\"size\\\": 1000,\\n                \\\"sources\\\": [\\n                  {\\\"stk1\\\": {\\\"terms\\\": {\\\"field\\\": \\\"client_hostname\\\"}}},\\n                  {\\\"stk2\\\": {\\\"terms\\\": {\\\"field\\\": \\\"server_hostname\\\"}}}\\n                ]\\n              }\\n            }\\n          }\\n        }\\n      },\\n      \\\"format\\\": {\\\"property\\\": \\\"aggregations.table.buckets\\\"},\\n      \\\"transform\\\": [\\n        {\\\"type\\\": \\\"formula\\\", \\\"expr\\\": \\\"datum.key.stk1\\\", \\\"as\\\": \\\"stk1\\\"},\\n        {\\\"type\\\": \\\"formula\\\", \\\"expr\\\": \\\"datum.key.stk2\\\", \\\"as\\\": \\\"stk2\\\"},\\n        {\\\"type\\\": \\\"formula\\\", \\\"expr\\\": \\\"datum.doc_count\\\", \\\"as\\\": \\\"size\\\"}\\n      ]\\n    },\\n    {\\n      \\\"name\\\": \\\"nodes\\\",\\n      \\\"source\\\": \\\"rawData\\\",\\n      \\\"transform\\\": [\\n        {\\n          \\\"type\\\": \\\"filter\\\",\\n          \\\"expr\\\": \\\"!groupSelector || groupSelector.stk1 == datum.stk1 || groupSelector.stk2 == datum.stk2\\\"\\n        },\\n        {\\\"type\\\": \\\"formula\\\", \\\"expr\\\": \\\"datum.stk1+datum.stk2\\\", \\\"as\\\": \\\"key\\\"},\\n        {\\\"type\\\": \\\"fold\\\", \\\"fields\\\": [\\\"stk1\\\", \\\"stk2\\\"], \\\"as\\\": [\\\"stack\\\", \\\"grpId\\\"]},\\n        {\\n          \\\"type\\\": \\\"formula\\\",\\n          \\\"expr\\\": \\\"datum.stack == 'stk1' ? datum.stk1+datum.stk2 : datum.stk2+datum.stk1\\\",\\n          \\\"as\\\": \\\"sortField\\\"\\n        },\\n        {\\n          \\\"type\\\": \\\"stack\\\",\\n          \\\"groupby\\\": [\\\"stack\\\"],\\n          \\\"sort\\\": {\\\"field\\\": \\\"sortField\\\", \\\"order\\\": \\\"descending\\\"},\\n          \\\"field\\\": \\\"size\\\"\\n        },\\n        {\\\"type\\\": \\\"formula\\\", \\\"expr\\\": \\\"(datum.y0+datum.y1)/2\\\", \\\"as\\\": \\\"yc\\\"}\\n      ]\\n    },\\n    {\\n      \\\"name\\\": \\\"groups\\\",\\n      \\\"source\\\": \\\"nodes\\\",\\n      \\\"transform\\\": [\\n        {\\n          \\\"type\\\": \\\"aggregate\\\",\\n          \\\"groupby\\\": [\\\"stack\\\", \\\"grpId\\\"],\\n          \\\"fields\\\": [\\\"size\\\"],\\n          \\\"ops\\\": [\\\"sum\\\"],\\n          \\\"as\\\": [\\\"total\\\"]\\n        },\\n        {\\n          \\\"type\\\": \\\"stack\\\",\\n          \\\"groupby\\\": [\\\"stack\\\"],\\n          \\\"sort\\\": {\\\"field\\\": \\\"grpId\\\", \\\"order\\\": \\\"descending\\\"},\\n          \\\"field\\\": \\\"total\\\"\\n        },\\n        {\\\"type\\\": \\\"formula\\\", \\\"expr\\\": \\\"scale('y', datum.y0)\\\", \\\"as\\\": \\\"scaledY0\\\"},\\n        {\\\"type\\\": \\\"formula\\\", \\\"expr\\\": \\\"scale('y', datum.y1)\\\", \\\"as\\\": \\\"scaledY1\\\"},\\n        {\\\"type\\\": \\\"formula\\\", \\\"expr\\\": \\\"datum.stack == 'stk1'\\\", \\\"as\\\": \\\"rightLabel\\\"},\\n        {\\n          \\\"type\\\": \\\"formula\\\",\\n          \\\"expr\\\": \\\"datum.total/domain('y')[1]\\\",\\n          \\\"as\\\": \\\"percentage\\\"\\n        }\\n      ]\\n    },\\n    {\\n      \\\"name\\\": \\\"destinationNodes\\\",\\n      \\\"source\\\": \\\"nodes\\\",\\n      \\\"transform\\\": [{\\\"type\\\": \\\"filter\\\", \\\"expr\\\": \\\"datum.stack == 'stk2'\\\"}]\\n    },\\n    {\\n      \\\"name\\\": \\\"edges\\\",\\n      \\\"source\\\": \\\"nodes\\\",\\n      \\\"transform\\\": [\\n        {\\\"type\\\": \\\"filter\\\", \\\"expr\\\": \\\"datum.stack == 'stk1'\\\"},\\n        {\\n          \\\"type\\\": \\\"lookup\\\",\\n          \\\"from\\\": \\\"destinationNodes\\\",\\n          \\\"key\\\": \\\"key\\\",\\n          \\\"fields\\\": [\\\"key\\\"],\\n          \\\"as\\\": [\\\"target\\\"]\\n        },\\n        {\\n          \\\"type\\\": \\\"linkpath\\\",\\n          \\\"orient\\\": \\\"horizontal\\\",\\n          \\\"shape\\\": \\\"diagonal\\\",\\n          \\\"sourceY\\\": {\\\"expr\\\": \\\"scale('y', datum.yc)\\\"},\\n          \\\"sourceX\\\": {\\\"expr\\\": \\\"scale('x', 'stk1') + bandwidth('x')\\\"},\\n          \\\"targetY\\\": {\\\"expr\\\": \\\"scale('y', datum.target.yc)\\\"},\\n          \\\"targetX\\\": {\\\"expr\\\": \\\"scale('x', 'stk2')\\\"}\\n        },\\n        {\\n          \\\"type\\\": \\\"formula\\\",\\n          \\\"expr\\\": \\\"range('y')[0]-scale('y', datum.size)\\\",\\n          \\\"as\\\": \\\"strokeWidth\\\"\\n        },\\n        {\\n          \\\"type\\\": \\\"formula\\\",\\n          \\\"expr\\\": \\\"datum.size/domain('y')[1]\\\",\\n          \\\"as\\\": \\\"percentage\\\"\\n        }\\n      ]\\n    }\\n  ],\\n  \\\"scales\\\": [\\n    {\\n      \\\"name\\\": \\\"x\\\",\\n      \\\"type\\\": \\\"band\\\",\\n      \\\"range\\\": \\\"width\\\",\\n      \\\"domain\\\": [\\\"stk1\\\", \\\"stk2\\\"],\\n      \\\"paddingOuter\\\": 0.01,\\n      \\\"paddingInner\\\": 0.98\\n    },\\n    {\\n      \\\"name\\\": \\\"y\\\",\\n      \\\"type\\\": \\\"linear\\\",\\n      \\\"range\\\": \\\"height\\\",\\n      \\\"domain\\\": {\\\"data\\\": \\\"nodes\\\", \\\"field\\\": \\\"y1\\\"}\\n    },\\n    {\\n      \\\"name\\\": \\\"color\\\",\\n      \\\"type\\\": \\\"ordinal\\\",\\n      \\\"range\\\": \\\"category\\\",\\n      \\\"domain\\\": {\\\"data\\\": \\\"rawData\\\", \\\"field\\\": \\\"stk1\\\"}\\n    },\\n    {\\n      \\\"name\\\": \\\"stackNames\\\",\\n      \\\"type\\\": \\\"ordinal\\\",\\n      \\\"range\\\": [\\\"Client\\\", \\\"Server\\\"],\\n      \\\"domain\\\": [\\\"stk1\\\", \\\"stk2\\\"]\\n    }\\n  ],\\n  \\\"axes\\\": [\\n    {\\n      \\\"orient\\\": \\\"bottom\\\",\\n      \\\"scale\\\": \\\"x\\\",\\n      \\\"encode\\\": {\\n        \\\"labels\\\": {\\n          \\\"update\\\": {\\n            \\\"text\\\": {\\\"scale\\\": \\\"stackNames\\\", \\\"field\\\": \\\"value\\\"},\\n            \\\"fontSize\\\": {\\\"value\\\": 14}\\n          }\\n        }\\n      }\\n    },\\n    {\\n      \\\"orient\\\": \\\"left\\\",\\n      \\\"scale\\\": \\\"y\\\",\\n      \\\"encode\\\": {\\\"labels\\\": {\\\"update\\\": {\\\"fontSize\\\": {\\\"value\\\": 12}}}}\\n    }\\n  ],\\n  \\\"marks\\\": [\\n    {\\n      \\\"type\\\": \\\"path\\\",\\n      \\\"name\\\": \\\"edgeMark\\\",\\n      \\\"from\\\": {\\\"data\\\": \\\"edges\\\"},\\n      \\\"clip\\\": true,\\n      \\\"encode\\\": {\\n        \\\"update\\\": {\\n          \\\"stroke\\\": [\\n            {\\n              \\\"test\\\": \\\"groupSelector && groupSelector.stack=='stk1'\\\",\\n              \\\"scale\\\": \\\"color\\\",\\n              \\\"field\\\": \\\"stk2\\\"\\n            },\\n            {\\\"scale\\\": \\\"color\\\", \\\"field\\\": \\\"stk1\\\"}\\n          ],\\n          \\\"strokeWidth\\\": {\\\"field\\\": \\\"strokeWidth\\\"},\\n          \\\"path\\\": {\\\"field\\\": \\\"path\\\"},\\n          \\\"strokeOpacity\\\": {\\n            \\\"signal\\\": \\\"!groupSelector && (groupHover.stk1 == datum.stk1 || groupHover.stk2 == datum.stk2) ? 0.75 : 0.3\\\"\\n          },\\n          \\\"zindex\\\": {\\n            \\\"signal\\\": \\\"!groupSelector && (groupHover.stk1 == datum.stk1 || groupHover.stk2 == datum.stk2) ? 1 : 0\\\"\\n          },\\n          \\\"tooltip\\\": {\\n            \\\"signal\\\": \\\"datum.stk1 + ' → ' + datum.stk2 + '    ' + format(datum.size, ',.0f') + '   (' + format(datum.percentage, '.1%') + ')'\\\"\\n          }\\n        },\\n        \\\"hover\\\": {\\\"strokeOpacity\\\": {\\\"value\\\": 0.75}}\\n      }\\n    },\\n    {\\n      \\\"type\\\": \\\"rect\\\",\\n      \\\"name\\\": \\\"groupMark\\\",\\n      \\\"from\\\": {\\\"data\\\": \\\"groups\\\"},\\n      \\\"encode\\\": {\\n        \\\"enter\\\": {\\n          \\\"fill\\\": {\\\"scale\\\": \\\"color\\\", \\\"field\\\": \\\"grpId\\\"},\\n          \\\"width\\\": {\\\"scale\\\": \\\"x\\\", \\\"band\\\": 1}\\n        },\\n        \\\"update\\\": {\\n          \\\"x\\\": {\\\"scale\\\": \\\"x\\\", \\\"field\\\": \\\"stack\\\"},\\n          \\\"y\\\": {\\\"field\\\": \\\"scaledY0\\\"},\\n          \\\"y2\\\": {\\\"field\\\": \\\"scaledY1\\\"},\\n          \\\"fillOpacity\\\": {\\\"value\\\": 0.7},\\n          \\\"tooltip\\\": {\\n            \\\"signal\\\": \\\"datum.grpId + '   ' + format(datum.total, ',.0f') + '   (' + format(datum.percentage, '.1%') + ')'\\\"\\n          }\\n        },\\n        \\\"hover\\\": {\\\"fillOpacity\\\": {\\\"value\\\": 1}}\\n      }\\n    },\\n    {\\n      \\\"type\\\": \\\"text\\\",\\n      \\\"from\\\": {\\\"data\\\": \\\"groups\\\"},\\n      \\\"interactive\\\": false,\\n      \\\"encode\\\": {\\n        \\\"update\\\": {\\n          \\\"x\\\": {\\n            \\\"signal\\\": \\\"scale('x', datum.stack) + (datum.rightLabel ? bandwidth('x') + 8 : -8)\\\"\\n          },\\n          \\\"yc\\\": {\\\"signal\\\": \\\"(datum.scaledY0 + datum.scaledY1)/2\\\"},\\n          \\\"align\\\": {\\\"signal\\\": \\\"datum.rightLabel ? 'left' : 'right'\\\"},\\n          \\\"baseline\\\": {\\\"value\\\": \\\"middle\\\"},\\n          \\\"fontWeight\\\": {\\\"value\\\": \\\"bold\\\"},\\n          \\\"fontSize\\\": {\\\"value\\\": 12},\\n          \\\"text\\\": {\\n            \\\"signal\\\": \\\"abs(datum.scaledY0-datum.scaledY1) > 10 ? datum.grpId : ''\\\"\\n          }\\n        }\\n      }\\n    },\\n    {\\n      \\\"type\\\": \\\"group\\\",\\n      \\\"data\\\": [\\n        {\\n          \\\"name\\\": \\\"dataForShowAll\\\",\\n          \\\"values\\\": [{}],\\n          \\\"transform\\\": [{\\\"type\\\": \\\"filter\\\", \\\"expr\\\": \\\"groupSelector\\\"}]\\n        }\\n      ],\\n      \\\"encode\\\": {\\n        \\\"enter\\\": {\\n          \\\"xc\\\": {\\\"signal\\\": \\\"width/2\\\"},\\n          \\\"y\\\": {\\\"value\\\": 30},\\n          \\\"width\\\": {\\\"value\\\": 100},\\n          \\\"height\\\": {\\\"value\\\": 36}\\n        }\\n      },\\n      \\\"marks\\\": [\\n        {\\n          \\\"type\\\": \\\"group\\\",\\n          \\\"name\\\": \\\"groupReset\\\",\\n          \\\"from\\\": {\\\"data\\\": \\\"dataForShowAll\\\"},\\n          \\\"encode\\\": {\\n            \\\"enter\\\": {\\n              \\\"cornerRadius\\\": {\\\"value\\\": 3.5},\\n              \\\"fill\\\": {\\\"value\\\": \\\"#666666\\\"},\\n              \\\"height\\\": {\\\"field\\\": {\\\"group\\\": \\\"height\\\"}},\\n              \\\"width\\\": {\\\"field\\\": {\\\"group\\\": \\\"width\\\"}}\\n            },\\n            \\\"update\\\": {\\\"opacity\\\": {\\\"value\\\": 1}},\\n            \\\"hover\\\": {\\\"fill\\\": {\\\"value\\\": \\\"#444444\\\"}}\\n          },\\n          \\\"marks\\\": [\\n            {\\n              \\\"type\\\": \\\"text\\\",\\n              \\\"interactive\\\": false,\\n              \\\"encode\\\": {\\n                \\\"enter\\\": {\\n                  \\\"xc\\\": {\\\"field\\\": {\\\"group\\\": \\\"width\\\"}, \\\"mult\\\": 0.5},\\n                  \\\"yc\\\": {\\\"field\\\": {\\\"group\\\": \\\"height\\\"}, \\\"mult\\\": 0.5, \\\"offset\\\": 1},\\n                  \\\"align\\\": {\\\"value\\\": \\\"center\\\"},\\n                  \\\"baseline\\\": {\\\"value\\\": \\\"middle\\\"},\\n                  \\\"text\\\": {\\\"value\\\": \\\"Show All\\\"},\\n                  \\\"fontSize\\\": {\\\"value\\\": 14},\\n                  \\\"stroke\\\": {\\\"value\\\": \\\"#ecf0f1\\\"}\\n                }\\n              }\\n            }\\n          ]\\n        }\\n      ]\\n    }\\n  ],\\n  \\\"signals\\\": [\\n    {\\n      \\\"name\\\": \\\"groupHover\\\",\\n      \\\"value\\\": {},\\n      \\\"on\\\": [\\n        {\\n          \\\"events\\\": \\\"@groupMark:mouseover\\\",\\n          \\\"update\\\": \\\"{stk1:datum.stack=='stk1' && datum.grpId, stk2:datum.stack=='stk2' && datum.grpId}\\\"\\n        },\\n        {\\\"events\\\": \\\"mouseout\\\", \\\"update\\\": \\\"{}\\\"}\\n      ]\\n    },\\n    {\\n      \\\"name\\\": \\\"groupSelector\\\",\\n      \\\"value\\\": false,\\n      \\\"on\\\": [\\n        {\\n          \\\"events\\\": \\\"@groupMark:click!\\\",\\n          \\\"update\\\": \\\"{stack:datum.stack, stk1:datum.stack=='stk1' && datum.grpId, stk2:datum.stack=='stk2' && datum.grpId}\\\"\\n        },\\n        {\\n          \\\"events\\\": [\\n            {\\\"type\\\": \\\"click\\\", \\\"markname\\\": \\\"groupReset\\\"},\\n            {\\\"type\\\": \\\"dblclick\\\"}\\n          ],\\n          \\\"update\\\": \\\"false\\\"\\n        }\\n      ]\\n    }\\n  ]\\n}\\n\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "471bb940-6cc0-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Client Geo Locations - tilemap",
+      "visState": "{\"title\":\"Snort: Client Geo Locations - tilemap\",\"type\":\"tile_map\",\"params\":{\"mapType\":\"Shaded Circle Markers\",\"isDesaturated\":false,\"addTooltip\":true,\"heatClusterSize\":1.5,\"legendPosition\":\"bottomright\",\"mapZoom\":2,\"mapCenter\":[0,0],\"wms\":{\"enabled\":false,\"options\":{\"format\":\"image/png\",\"transparent\":true},\"baseLayersAreLoaded\":{},\"tmsLayers\":[{\"id\":\"road_map\",\"url\":\"https://tiles.maps.elastic.co/v2/default/{z}/{x}/{y}.png?elastic_tile_service_tos=agree&my_app_name=kibana&my_app_version=6.2.4\",\"minZoom\":0,\"maxZoom\":10,\"attribution\":\"<p>&#169; <a href=\\\"http://www.openstreetmap.org/copyright\\\">OpenStreetMap</a> contributors | <a href=\\\"https://www.elastic.co/elastic-maps-service\\\">Elastic Maps Service</a></p>&#10;\",\"subdomains\":[]}],\"selectedTmsLayer\":{\"id\":\"road_map\",\"url\":\"https://tiles.maps.elastic.co/v2/default/{z}/{x}/{y}.png?elastic_tile_service_tos=agree&my_app_name=kibana&my_app_version=6.2.4\",\"minZoom\":0,\"maxZoom\":10,\"attribution\":\"<p>&#169; <a href=\\\"http://www.openstreetmap.org/copyright\\\">OpenStreetMap</a> contributors | <a href=\\\"https://www.elastic.co/elastic-maps-service\\\">Elastic Maps Service</a></p>&#10;\",\"subdomains\":[]}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"geohash_grid\",\"schema\":\"segment\",\"params\":{\"field\":\"client_geo_location\",\"autoPrecision\":true,\"isFilteredByCollar\":true,\"useGeocentroid\":true,\"precision\":2,\"customLabel\":\"Client\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"snort-*\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "6662c5f0-6cc0-11e8-acab-b78fd1091474",
+    "_type": "visualization",
+    "_source": {
+      "title": "Snort: Server Geo Locations - tilemap",
+      "visState": "{\"title\":\"Snort: Server Geo Locations - tilemap\",\"type\":\"tile_map\",\"params\":{\"mapType\":\"Shaded Circle Markers\",\"isDesaturated\":false,\"addTooltip\":true,\"heatClusterSize\":1.5,\"legendPosition\":\"bottomright\",\"mapZoom\":2,\"mapCenter\":[0,0],\"wms\":{\"enabled\":false,\"options\":{\"format\":\"image/png\",\"transparent\":true},\"baseLayersAreLoaded\":{},\"tmsLayers\":[{\"id\":\"road_map\",\"url\":\"https://tiles.maps.elastic.co/v2/default/{z}/{x}/{y}.png?elastic_tile_service_tos=agree&my_app_name=kibana&my_app_version=6.2.4\",\"minZoom\":0,\"maxZoom\":10,\"attribution\":\"<p>&#169; <a href=\\\"http://www.openstreetmap.org/copyright\\\">OpenStreetMap</a> contributors | <a href=\\\"https://www.elastic.co/elastic-maps-service\\\">Elastic Maps Service</a></p>&#10;\",\"subdomains\":[]}],\"selectedTmsLayer\":{\"id\":\"road_map\",\"url\":\"https://tiles.maps.elastic.co/v2/default/{z}/{x}/{y}.png?elastic_tile_service_tos=agree&my_app_name=kibana&my_app_version=6.2.4\",\"minZoom\":0,\"maxZoom\":10,\"attribution\":\"<p>&#169; <a href=\\\"http://www.openstreetmap.org/copyright\\\">OpenStreetMap</a> contributors | <a href=\\\"https://www.elastic.co/elastic-maps-service\\\">Elastic Maps Service</a></p>&#10;\",\"subdomains\":[]}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"geohash_grid\",\"schema\":\"segment\",\"params\":{\"field\":\"server_geo_location\",\"autoPrecision\":true,\"isFilteredByCollar\":true,\"useGeocentroid\":true,\"precision\":2,\"customLabel\":\"Server\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"snort-*\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  }
+]
