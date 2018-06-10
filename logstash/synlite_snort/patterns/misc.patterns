@@ -15,5 +15,7 @@
 # Robert Cowart are Copyright (C)2018 Robert Cowart. All Rights Reserved.
 #------------------------------------------------------------------------------
 
-NOTPARENCLOSE [^)]+
+NOTCURLYOPEN [^{]+
+NOTCURLYCLOSE [^}]+
+NOTSQROPEN [^\[]+
 NOTSQRCLOSE [^\]]+
