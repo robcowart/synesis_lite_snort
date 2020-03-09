@@ -19,11 +19,11 @@ At high ingest rates (>5K logs/s), or for data redundancy and high availability,
 
 If you are new to the Elastic Stack, this video goes beyond a simple default installation of Elasticsearch and Kibana. It discusses real-world best practices for hardware sizing and configuration, providing production-level performance and reliability.
 
-[![es_install_thumbnail](https://user-images.githubusercontent.com/10326954/75727859-58301100-5ce6-11ea-9ed7-2c93bb1df111.png)](https://youtu.be/gZb7HpVOges)
+[![0003_es_install](https://user-images.githubusercontent.com/10326954/76195457-9ea2d580-61e8-11ea-8578-8fb39908afec.png)](https://www.youtube.com/watch?v=gZb7HpVOges)
 
 Additionally local SSD storage should be considered as _*mandatory*_! For an in-depth look at how different storage options compare, and in particular how bad HDD-based storage is for Elasticsearch (even in multi-drive RAID0 configurations) you should watch this video...
 
-[![es_storage_thumbnail](https://user-images.githubusercontent.com/10326954/73439503-00516380-4350-11ea-961b-4a464e7a27b2.png)](https://youtu.be/nKUpfJCBiS4)
+[![0001_es_storage](https://user-images.githubusercontent.com/10326954/76195348-61d6de80-61e8-11ea-951d-1694d2e0392b.png)](https://www.youtube.com/watch?v=nKUpfJCBiS4)
 
 ## Filebeat
 As Snort is usually run on one or more Linux servers, the solution includes both [Filebeat](https://www.elastic.co/guide/en/beats/filebeat/current/filebeat-overview.html) and [Logstash](https://www.elastic.co/guide/en/logstash/current/introduction.html). Filebeat is used to collect the log data on the system where Snort is running, and ships it to Logstash via the Beats input. An example Filebeat prospector configuration is included in `filebeat/filebeat.yml`.
