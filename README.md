@@ -1,3 +1,5 @@
+THIS PROJECT HAS BEEN ARCHIVED! I may revisit Snort logs in the future, however I will likely focus on replacing the Filebeat and Logsatsh components with a more purpose built collector.
+
 # sýnesis&trade; Lite for Snort
 sýnesis&trade; Lite for Snort provides basic analytics for Snort IDS/IPS alert logs using the Elastic Stack.
 
